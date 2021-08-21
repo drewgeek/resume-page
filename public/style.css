@@ -164,6 +164,49 @@ section:last-child {
   width: 100%;
 }
 
+.form-area {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  position: relative;
+  left: 26%;
+  width: 40%;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.contact-form {
+  position: absolute;
+  top: 0.5%;
+  left: 10%;
+  width: 80%;
+  height: 600px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.submit {
+  border: 1px solid #000000;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.submit:hover {
+  opacity: 0.6;
+}
+
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
